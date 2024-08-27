@@ -1,0 +1,8 @@
+name: ChangeDifficulty
+version: '${project.version}'
+main: com.oftx.changedifficulty.ChangeDifficulty
+api-version: '1.20'
+commands:
+  chdifficulty:
+    usage: /chdifficulty [0|1|2|3]
+    description: "Change Difficulty | 改变难度"
